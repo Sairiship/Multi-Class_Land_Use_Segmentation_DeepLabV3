@@ -36,7 +36,7 @@ Key Features:
 
 Multi-Class_Land_Use_Segmentation_DeepLabV3/
 ├── README.md
-├── satellite_segmentation.py    
+├── Segmentation_DeepLabV3.ipynb.py    
 ├── data/
 │   ├── images/                   # Satellite images
 │   └── masks/                    # Segmentation masks
