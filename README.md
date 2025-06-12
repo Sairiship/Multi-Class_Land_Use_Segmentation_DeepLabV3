@@ -34,13 +34,24 @@ Key Features:
 
 📁 Project Structure : 
 
+
+
+
+# Multi-Class Land Use Segmentation using DeepLabV3
+
+This repository contains code and data for semantic segmentation of land cover using DeepLabV3. The model segments satellite images into five classes: cropland, trees, roads, settlements, and water bodies.
+
+## 🗂️ Project Structure
+
+```bash
 Multi-Class_Land_Use_Segmentation_DeepLabV3/
-├── README.md
-├── Segmentation_DeepLabV3.ipynb.py    
+├── README.md                        # Project overview and instructions
+├── Segmentation_DeepLabV3.ipynb     # Main Jupyter notebook
 ├── data/
-│   ├── images/                   # Satellite images
-│   └── masks/                    # Segmentation masks
-├── saved_models/                 # Trained model checkpoints
+│   ├── images/                      # Input satellite images
+│   └── masks/                       # Ground truth segmentation masks
+├── saved_models/                    # Trained model checkpoints
+
 
 
 
